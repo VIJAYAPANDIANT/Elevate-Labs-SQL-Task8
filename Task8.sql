@@ -1,8 +1,7 @@
 
 CREATE DATABASE task8;
-USE cask8;
+USE task8;
 
--
 -- Employees Table
 
 CREATE TABLE employees (
@@ -21,7 +20,7 @@ CREATE TABLE departments (
 
 
 -- Insert Data into Employees
--
+
 INSERT INTO employees (emp_id, emp_name, dept_id) VALUES
 (1, 'Rahul', 101),
 (2, 'Priya', 102),
